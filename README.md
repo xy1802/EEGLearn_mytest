@@ -18,7 +18,7 @@ I just changed it a little bit, which may help you understand the method better.
 Because when I try to use patient 15's data to predict patient 1's label, the result is terrible. If you want to train a model with stronger generalization ability,
 just use more data to train and more patient data will give you a better result.
 3. I use gpu to accelerate my network, if you don't have NVIDA GPU, please cancel all the .gpu() in your code.
-
+4. you can download the sample data and other information in https://github.com/VDelv/EEGLearn-Pytorch. My code is based on it
 ## References 
 
 If you are using this code please [cite](Cite.bib) the paper:
