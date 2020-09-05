@@ -8,7 +8,7 @@ I just changed it a little bit, which may help you understand the method better.
 |:--:| 
 | Taken from [Bashivan et al. 2016](https://arxiv.org/pdf/1511.06448.pdf)|
 
-![alt text](diagram.png "images")
+![images](https://github.com/xy1802/EEGLearn_mytest/blob/master/images.png)
 |:--:| 
 | images in the dataset |
 
