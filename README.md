@@ -3,7 +3,7 @@ Try to show the pictures in EEGLearn, add model save and load to do prediction. 
 The original method is from https://github.com/VDelv/EEGLearn-Pytorch  
 I just changed it a little bit, which may help you understand the method better.
 
-##Method show
+## Method show
 ![alt text](diagram.png "Converting EEG recordings to movie snippets")
 |:--:| 
 | Taken from [Bashivan et al. 2016](https://arxiv.org/pdf/1511.06448.pdf)|
@@ -12,7 +12,7 @@ I just changed it a little bit, which may help you understand the method better.
 |:--:| 
 | images in the dataset |
 
-##Some Tips
+## Some Tips
 1. I do some changes in train,utils, and add a file model_load_pre. Most useful tools are in model_load_pre. 
 2. The original author train the network one by one, one patient, one group of training data, but I train the network for all the people. 
 Because when I try to use patient 15's data to predict patient 1's label, the result is terrible. If you want to train a model with stronger generalization ability,
